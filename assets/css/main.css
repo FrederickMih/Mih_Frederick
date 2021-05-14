@@ -7,7 +7,7 @@
 
 .home {
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 20vh;
   overflow: hidden;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -29,6 +29,31 @@
 .home__name--last {
   color: #ff652f;
   font-weight: 900;
+}
+
+.home__description,
+.home .about__text {
+  margin-top: 0.5em;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+.cover {
+  width: 50%;
+  margin: auto;
+  height: 38rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: auto;
 }
 
 .menu-btn {
@@ -191,6 +216,14 @@ body {
   line-height: 1;
 }
 
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
 h1, h2, h3 {
   font-weight: 400;
 }
@@ -198,6 +231,10 @@ h1, h2, h3 {
 a {
   color: #000;
   text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
 }
 
 header {
@@ -212,20 +249,24 @@ main {
   width: 100%;
 }
 
-main .social-icons {
-  position: fixed;
-  bottom: 1rem;
-  left: 1rem;
+main .cover__social-icons {
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
-main .social-icons a {
+main .cover__social-icons a {
   padding: 0.4rem;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
-main .social-icons a:hover {
+main .cover__social-icons a:hover {
   color: #ff652f;
+}
+
+.cover__social-icon {
+  font-size: 1.3em;
+  margin: 0 1em;
 }
 
 footer {

@@ -10,6 +10,12 @@ body {
    line-height: 1;
 }
 
+ul {
+   list-style: none;
+   display: flex;
+   padding: 0;
+}
+
 h1, h2, h3 {
    font-weight: 400;
 }
@@ -17,6 +23,9 @@ h1, h2, h3 {
 a {
    color: set-text-color($primary-color);
    text-decoration: none;
+   &:hover {
+      color: inherit;
+   }
 }
 
 header {
@@ -30,11 +39,8 @@ main {
    height: 100%;
    width: 100%;
 
-   .social-icons {
-      position:fixed;
-      bottom: 1rem;
-      left: 1rem;
-
+   .cover__social-icons {
+      justify-self: center;
       a {
          padding: 0.4rem;
          @include transition-simple;
@@ -44,6 +50,21 @@ main {
       }
    }
 }
+
+
+.cover__social-icon {
+   font-size: 1.3em;
+   margin: 0 1em;
+}
+
+.cover__action {}
+
+
+
+
+
+
+
 
 footer {
    font-size: 1rem;

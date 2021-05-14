@@ -1,6 +1,7 @@
+
 .home {
    height: 100%;
-   padding-top: 40vh;
+   padding-top: 20vh;
    overflow: hidden;
    align-items: center;
    text-align: center;
@@ -25,4 +26,23 @@
          font-weight: 900;
       }
    }
+  
+  &__description,
+  .about__text {
+  margin-top: 0.5em;
+  line-height: 1.6em;
+  text-align: center;
+}
+}
+
+
+.cover {
+   width: 50%;
+   margin: auto;
+   height: 38rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin: auto;
 }
