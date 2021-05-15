@@ -1,6 +1,9 @@
 @import 'variables';
 @import 'home';
 @import 'menu';
+@import 'projects';
+@import 'about';
+
 
 body {
    background: $primary-color;
@@ -57,13 +60,28 @@ main {
    margin: 0 1em;
 }
 
-.cover__action {}
-
-
-
-
-
-
+.down__action {
+height: 2.5em;
+width: 2.5em;
+border: solid 2px  rgb(236, 77, 28);
+border-radius: 50%;
+display: flex;
+justify-content: center;
+margin-top: 2.5em;
+align-items: center;
+color: rgb(236, 77, 28);
+border: currentColor 0.125em solid;
+text-shadow: 0 0 0.125em hs1(0 0% 100% / 0.5), 0 0 0.45em currentColor;
+box-shadow: inset 0 0 1em 0 $secondary-color, 0 0 1em 0 $secondary-color;
+}
+.down__action1 {
+height: 2.5em;
+width: 2.5em;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(236, 77, 28);
+}
 
 
 footer {

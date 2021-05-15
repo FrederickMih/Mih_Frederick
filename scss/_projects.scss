@@ -1,0 +1,123 @@
+.projects {
+  padding-bottom: 1.5rem;
+
+  &__bg-image {
+    height: 35vh;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("/assets/images/artifiacial.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    .project__title{
+      font-size: 2.6em;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  &__items1, &__items2 {
+    width: 60vw;
+    margin: 2rem auto 0 auto;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-gap: 2rem;
+   
+
+  }
+
+  &__item {
+    border-bottom: 5px solid $primary-color;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+    padding: 1em 1.5em 7em;
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    .title {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    .tools {
+      font-size: 0.8rem;
+      margin-top: 0;
+      margin-bottom: 0.8em;
+      display: flex;
+      justify-content: flex-end;
+      font-weight: 900;
+    }
+
+    .tool {
+      padding: 0.2em 0.6em;
+      margin-left: 0.4em;
+      background-color: white;
+      color: #cf2c0f;
+      border-radius: 1em;
+    }
+
+    .tool:nth-child(2) {
+      margin-top: 0;
+    }
+
+    .project-link:nth-child(2) {
+      margin-top: 0;
+    }
+
+    .details {
+      line-height: 1.4;
+      font-size: 0.9rem;
+      text-align: justify;
+      margin-top: 1.5em;
+    }
+
+    .project-links {
+      margin-top: 1.5em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      position: absolute;
+      bottom: 1.5em;
+      right: 1.5em;
+      left: 1.5em;
+      text-align: center;
+    }
+
+    .link {
+      color: #fff;
+      font-size: 0.8rem;
+      text-decoration: none;
+      padding: 0.6em;
+      text-transform: uppercase;
+      font-weight: 700;
+      border: 2px solid yellow;
+      border: currentColor 0.125em solid;
+      text-shadow: 0 0 0.125em hs1(0 0% 100% / 0.5), 0 0 0.45em currentColor;
+      box-shadow: inset 0 0 1em 0 $secondary-color, 0 0 1em 0 $secondary-color;
+      border-radius: 2.25em;
+      position: relative;
+    }
+
+    .link:nth-child(2) {
+      margin-top: 0.8em;
+    }
+
+    .link:hover {
+      background-color: $primary-color;
+      color: #1e4040;
+    }
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    transform: rotate(90deg) translate(-3rem, -5rem);
+  }
+}
