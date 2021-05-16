@@ -1,0 +1,174 @@
+
+@mixin media-md {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin media-xl {
+  @media screen and (min-width: 1600px) {
+    @content;
+  }
+}
+
+
+@include media-md {
+  .menu-btn {
+    visibility: hidden;
+  }
+
+  .nav {
+    visibility: visible;
+
+    .menu-nav {
+      display: block;
+      transform: translateY(0);
+      height: 50%;
+      text-align: center;
+      
+      &__item {
+        display: inline;
+        padding-right: 1.5rem;
+
+      }
+
+      &__link {
+        font-size: 0.5rem;
+      }
+    }
+
+    .menu-nav__hide {
+      background: transparent;
+    }
+  }
+
+//   .about {
+//     font-size: 1.5rem;
+//   }
+
+  .projects {
+    &__bg-image {
+      height: 40vh;
+    }
+
+    &__items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .text-secondary {
+      font-size: 3rem;
+    }
+  }
+
+  .contact__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@include media-lg {
+  .contact__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@include media-xl {
+  .projects__bg-image {
+    height: 40vh;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 769px) {
+  .cover {
+    width: 80%;
+  }
+
+  .projects,
+  .about {
+    width: 100%;
+  }
+
+  .projects {
+    padding-top: 75px;
+  }
+
+  .about {
+    padding-bottom: 3.5em;
+  }
+
+  .projects__title {
+    margin-bottom: 1.5em;
+  }
+
+  .project {
+    width: 48%;
+    margin-bottom: 1.5em;
+  }
+
+  
+
+  .project__image-wrapper {
+    height: 13.75em;
+  }
+
+  .skills {
+    width: 50%;
+    padding: 1%;
+    margin: 1rem auto;
+   
+  }
+}
+
+@media (max-width: 426px) {
+  .cover {
+    width: 90%;
+  }
+
+  .cover__action {
+    margin-top: 1.2em;
+  }
+
+  .projects,
+  .about {
+    width: 90%;
+    padding: 0.5em;
+  }
+
+  .projects {
+    padding-top: 75px;
+  }
+
+  .projects__title {
+    margin-top: 0.2em;
+  }
+
+  .project {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1.5em;
+    
+  }
+
+
+  .about {
+    padding-top: 3.5em;
+    padding-bottom: 1.5em;
+  }
+
+  .skills {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1.5em;
+  }
+}
