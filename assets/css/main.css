@@ -609,7 +609,7 @@ a:hover {
 
 header {
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   width: 100%;
   padding: 1rem;
 }
