@@ -1,0 +1,23 @@
+.top-navbar {
+   background: #3e3c3cd5;
+   padding: 0 5rem;
+}
+.collapse {
+   justify-content: flex-end;
+}
+
+button {
+   border: none;
+}
+.navbar-logo {
+   font-family: 'Open sans', sans-serif !important;
+}
+.top-navbar .nav-link, 
+.navbar-logo {
+   color:#FFFFFF !important;
+}
+.nav-link:hover, .navbar-logo:hover {
+    color: gray !important;
+    transform: scale(1.2);
+}
+
