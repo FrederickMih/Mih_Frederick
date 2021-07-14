@@ -27,4 +27,79 @@ button {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
+
+html {
+  font-family: "Open sans", sans-serif;
+}
+
+body {
+  background-color: #1C1A19 !important;
+}
+
+button {
+  border: none;
+}
+
+.home-section {
+  height: 50rem;
+}
+
+.social-link {
+  top: 30%;
+  position: absolute;
+}
+
+.social-link-ul {
+  list-style-type: none;
+  margin: 0 2rem;
+  padding: 0;
+}
+
+.my-link {
+  margin-top: 1rem;
+}
+
+.social-color {
+  color: #A2A2A1FF;
+}
+
+.social-color:hover {
+  color: #d4d4d4 !important;
+}
+
+.hi-section {
+  position: absolute;
+  color: white;
+  top: 25%;
+  left: 10%;
+  font-weight: 550;
+}
+
+.primary-text {
+  font-size: 52px;
+  color: #f55a00a6;
+}
+
+.text-h4 {
+  margin-bottom: 0.9rem;
+  color: white;
+}
+
+.abstract-section {
+  position: absolute;
+  right: 5%;
+  top: 29%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.abstract-image {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
 /*# sourceMappingURL=main.css.map */
