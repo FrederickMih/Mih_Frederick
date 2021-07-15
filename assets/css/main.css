@@ -30,10 +30,13 @@ button {
 
 hr {
   height: 5px !important;
-  border: 2px solid black !important;
   border-radius: 10px !important;
   background: -webkit-gradient(linear, right top, left top, from(blue), to(red)) !important;
   background: linear-gradient(to left, blue, red) !important;
+}
+
+.readmore {
+  background-color: teal !important;
 }
 
 .porfolio-section {
