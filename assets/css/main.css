@@ -28,6 +28,182 @@ button {
           transform: scale(1.2);
 }
 
+hr {
+  height: 5px !important;
+  border: 2px solid black !important;
+  border-radius: 10px !important;
+  background: -webkit-gradient(linear, right top, left top, from(blue), to(red)) !important;
+  background: linear-gradient(to left, blue, red) !important;
+}
+
+.porfolio-section {
+  background: white;
+  margin: 5rem auto;
+  width: 100%;
+  position: relative;
+  margin-bottom: 10rem;
+}
+
+.daily-outlay {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}
+
+.section-title {
+  text-align: center;
+  padding-top: 7rem;
+}
+
+.main-proj-img {
+  width: 85%;
+  margin: 1rem 0;
+}
+
+.secondary-projects-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.secondary-project {
+  width: 25rem;
+  height: 15rem;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 2%;
+  position: relative;
+}
+
+.secondary-project:hover .project-link-hide {
+  display: block;
+}
+
+.secondary-project:hover .proj-div {
+  display: none;
+}
+
+#first-project:hover {
+  background: none, url(assets/telegram-bot/example1.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+#second-project:hover {
+  background: none, url(assets/littletale-rpg/2.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+#third-project:hover {
+  background: none, url(assets/mindcompilator/logo.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+#fourth-project:hover {
+  background: none, url(assets/activities-manager/1.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+#fifth-project:hover {
+  background: none, url(assets/social-media/2.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+#sixth-project:hover {
+  background: none, url(assets/weather/1.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+#first-project {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0.322) 0.85%, #141e30b2 84%), url(assets/telegram-bot/example1.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+#second-project {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0.322) 0.85%, #141e30b2 84%), url(assets/littletale-rpg/2.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+#third-project {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0.322) 0.85%, #141e30b2 84%), url(assets/mindcompilator/logo.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+#fourth-project {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0.322) 0.85%, #141e30b2 84%), url(assets/activities-manager/1.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+#fifth-project {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0.322) 0.85%, #141e30b2 84%), url(assets/social-media/2.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+#sixth-project {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0.322) 0.85%, #141e30b2 84%), url(assets/weather/1.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.project-link,
+.project-link-hide {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 0.6rem;
+  background-color: #889caa;
+  border-radius: 5%;
+  margin: 0.1rem;
+}
+
+.project-link-hide {
+  display: none;
+}
+
+.project-link:hover {
+  background-color: #667685;
+  color: black;
+}
+
+.links-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20%;
+}
+
+.proj-div {
+  position: absolute;
+  bottom: 5%;
+}
+
+.carus-img {
+  max-height: 25rem;
+  margin: 0 auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: #141e30;
+  background-color: #141e30;
+}
+
+.modal-content {
+  color: black;
+}
+
+.project-details {
+  padding: 0 2rem;
+}
+
 html {
   font-family: "Open sans", sans-serif;
 }
@@ -41,11 +217,11 @@ button {
 }
 
 .home-section {
-  height: 50rem;
+  height: 30rem;
 }
 
 .social-link {
-  top: 30%;
+  top: 25%;
   position: absolute;
 }
 

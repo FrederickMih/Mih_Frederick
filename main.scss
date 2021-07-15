@@ -1,5 +1,6 @@
 @import "config";
 @import "nav-bar";
+@import "projects";
 
 html {
    font-family: $font-stack;
@@ -15,11 +16,11 @@ html {
  // home page section
 
  .home-section {
-    height: 50rem;
+    height: 30rem;
  }
 
  .social-link {
-    top: 30%;
+    top: 25%;
     position: absolute;
 }
 
