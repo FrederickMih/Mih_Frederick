@@ -116,11 +116,6 @@ hr {
   background-size: 100% 100%;
 }
 
-#sixth-project:hover {
-  background: none, url(assets/weather/scr2.png) no-repeat center center;
-  background-size: 100% 100%;
-}
-
 #first-project {
   background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/weather/scr2.png) no-repeat center center;
   background-size: 100% 100%;
