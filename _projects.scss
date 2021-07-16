@@ -53,9 +53,9 @@ hr {
     display: block;
 }
 
-.secondary-project:hover .proj-div {
-    display: none;
-}
+// .secondary-project:hover .proj-div {
+//     display: none;
+// }
 
 #first-project:hover {
     background: none, url(assets/weather/scr2.png) no-repeat center center;
@@ -89,11 +89,6 @@ hr {
 
 #second-project {
     background: $main-proj-gradient, url(assets/weather/scr2.png) no-repeat;
-    background-size: 100% 100%;
-}
-
-#third-project {
-    background: $main-proj-gradient, url(assets/weather/scr2.png) no-repeat center center;
     background-size: 100% 100%;
 }
 
