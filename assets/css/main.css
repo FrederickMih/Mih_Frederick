@@ -87,6 +87,10 @@ hr {
   display: block;
 }
 
+.secondary-project:hover .proj-captions {
+  display: none;
+}
+
 #first-project:hover {
   background: none, url(assets/weather/scr2.png) no-repeat center center;
   background-size: 100% 100%;
@@ -94,11 +98,6 @@ hr {
 
 #second-project:hover {
   background: none, url(assets/weather/scr2.png) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-#third-project:hover {
-  background: none, url(assets/mindcompilator/logo.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
@@ -139,7 +138,7 @@ hr {
   font-weight: bold;
   padding: 0.6rem;
   background-color: #889caa;
-  border-radius: 5%;
+  border-radius: 8%;
   margin: 0.1rem;
 }
 
@@ -164,9 +163,8 @@ hr {
   margin-top: 20%;
 }
 
-.proj-div {
+.proj-captions {
   position: absolute;
-  bottom: 5%;
 }
 
 .carus-img {
@@ -176,8 +174,8 @@ hr {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  color: #141e30;
-  background-color: #141e30;
+  color: #a5a9b1;
+  background-color: #125fdb;
 }
 
 .modal-content {
