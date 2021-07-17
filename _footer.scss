@@ -1,0 +1,64 @@
+.footer {
+    margin: 0 auto;
+    padding: 4rem;
+    padding-bottom: 0;
+    width: 100%;
+    height: 50rem;
+}
+
+.footer hr {
+    color: $white-color;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.readmore:hover {
+    background-color: #667685;
+    color: black;
+    font-weight: 500;
+}
+
+.aboutme-section {
+    color: $white-color;
+    font-weight: 500;
+}
+
+.form-section {
+    width: 30%;
+    padding-top: 1.1rem;
+    margin-left: 2rem;
+
+}
+
+.top-footer-part {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    // margin: 5rem;
+}
+
+.abilities-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: $white-color;
+    margin: 3rem;
+}
+
+.footer-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+.footer .medium-navbar-ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.footer .medium-navbar-ul .mn-li {
+    margin-right: 1rem;
+}
