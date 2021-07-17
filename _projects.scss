@@ -2,12 +2,26 @@ hr {
    height: 5px !important;
    border-radius: 10px !important; 
    background: linear-gradient(to left, blue, red) !important;
+   width: 90% !important;
+   margin: 0 auto !important;
     
 }
 
 .readmore {
     background-color: teal !important;
+    text-decoration: none;
+    color: black;
+    padding: 0.7rem;
+    background-color: #889caa;
+    top: 40%;
+    left: 35%;
+    border-radius: 5%;
+    font-weight: 500;
 }
+.readmore:hover {
+    color: white !important;
+}
+
 
 
 .porfolio-section {
