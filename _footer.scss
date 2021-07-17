@@ -22,6 +22,29 @@
     color: $white-color;
     font-weight: 500;
 }
+.message-me {
+   display: flex;
+    margin-top: 5rem;
+   background: $white-color;
+    margin: 5rem auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10rem;
+   
+}
+
+.message-note {
+   color: $white-color;
+   border: 1px solid red;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.messsage-form{
+   width: 80%;
+   padding-top: 1.1rem;
+   margin-left: 2rem;
+}
 
 .fredImage {
    width: 30%;
