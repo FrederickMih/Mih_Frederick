@@ -295,7 +295,7 @@ hr {
   font-weight: 700;
 }
 
-.footer .medium-navbar-ul {
+.footer .social-link-ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -305,7 +305,7 @@ hr {
   margin-top: 1rem;
 }
 
-.footer .medium-navbar-ul .mn-li {
+.footer .social-link-ul .mn-li {
   margin-right: 1rem;
 }
 
