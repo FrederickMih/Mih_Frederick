@@ -235,6 +235,12 @@ hr {
   margin-left: 0;
 }
 
+.in-touch {
+  font-weight: 900;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
 .message-note {
   color: white;
   margin-bottom: 4rem;
