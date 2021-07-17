@@ -229,17 +229,14 @@ hr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 5rem;
-  background: white;
-  margin: 5rem auto;
   width: 100%;
   position: relative;
   margin-bottom: 10rem;
+  margin-left: 0;
 }
 
 .message-note {
   color: white;
-  border: 1px solid red;
   margin-bottom: 4rem;
   margin-top: 4rem;
 }

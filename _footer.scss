@@ -24,18 +24,16 @@
 }
 .message-me {
    display: flex;
-    margin-top: 5rem;
-   background: $white-color;
-    margin: 5rem auto;
+   // background: $white-color;
     width: 100%;
-    position: relative;
+    position: relative ;
     margin-bottom: 10rem;
+    margin-left: 0;
    
 }
 
 .message-note {
    color: $white-color;
-   border: 1px solid red;
     margin-bottom: 4rem;
     margin-top: 4rem;
 }
