@@ -347,9 +347,7 @@ hr {
     padding: 1rem;
   }
   .social-link-ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
