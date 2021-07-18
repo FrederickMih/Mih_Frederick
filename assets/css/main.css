@@ -132,17 +132,17 @@ hr {
 }
 
 #second-project:hover {
-  background: none, url(assets/weather/scr2.png) no-repeat center center;
+  background: none, url(assets/shooter/Screenshot3.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
 #fourth-project:hover {
-  background: none, url(assets/activities-manager/1.png) no-repeat center center;
+  background: none, url(assets/webScraper/scraped_result.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
 #fifth-project:hover {
-  background: none, url(assets/social-media/2.png) no-repeat center center;
+  background: none, url(assets/concertPage/concert3.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
@@ -152,17 +152,17 @@ hr {
 }
 
 #second-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/weather/scr2.png) no-repeat;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/shooter/Screenshot3.png) no-repeat;
   background-size: 100% 100%;
 }
 
 #fourth-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/weather/scr2.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/webScraper/scraped_result.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
 #fifth-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/weather/scr2.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/concertPage/concert3.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
