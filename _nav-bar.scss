@@ -21,3 +21,24 @@ button {
     transform: scale(1.2);
 }
 
+.navbar-logo
+.footer-ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   font-weight: 700;
+   text-decoration: none !important;
+
+}
+
+a {
+   text-decoration: none !important;
+}
+
+.h1-section {
+   position: absolute;
+   color: $white-color;
+   top: 30%;
+   left: 10%;
+   font-weight: 500;
+}

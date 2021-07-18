@@ -2,6 +2,7 @@
 @import "nav-bar";
 @import "projects";
 @import "footer";
+@import "@media";
 
 html {
    font-family: $font-stack;
@@ -46,7 +47,7 @@ html {
     color: #d4d4d4 !important;
 }
 
-.hi-section {
+.h1-section {
     position: absolute;
     color: $white-color;
     top: 25%;

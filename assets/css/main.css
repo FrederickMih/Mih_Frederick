@@ -28,6 +28,27 @@ button {
           transform: scale(1.2);
 }
 
+.navbar-logo
+.footer-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.h1-section {
+  position: absolute;
+  color: white;
+  top: 30%;
+  left: 10%;
+  font-weight: 500;
+}
+
 hr {
   height: 5px !important;
   border-radius: 10px !important;
@@ -309,6 +330,124 @@ hr {
   margin-right: 1rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .section-title {
+    text-align: center;
+    font-weight: 900;
+  }
+  .first-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .top-navbar {
+    padding: 1rem;
+  }
+  .social-link-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+    position: relative;
+  }
+  .social-link {
+    position: static;
+    margin-top: 30rem;
+  }
+  .home-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: static;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 2rem;
+    margin-bottom: 15rem;
+  }
+  .abstract-section {
+    margin-top: 3rem;
+    position: static;
+  }
+  .h1-section {
+    position: static;
+  }
+  .porfolio-section {
+    width: 98%;
+  }
+  .top-footer-part {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .form-section {
+    width: 95%;
+    margin-top: 3rem;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+  .footer {
+    height: auto;
+    padding: 2rem;
+  }
+  .social-link-ul {
+    padding-bottom: 3rem;
+  }
+  .abil-h3 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .talent-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    font-size: 24px;
+    text-align: center;
+  }
+  .frameworks {
+    margin-top: 3rem;
+  }
+  .skills {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .form-section {
+    margin-top: 2rem;
+    width: 95%;
+    margin-left: 0;
+  }
+  .footer {
+    height: auto;
+  }
+  .social-link-ul {
+    padding-bottom: 3rem;
+  }
+  .abstract-image {
+    width: 30%;
+  }
+  .porfolio-section {
+    width: 95%;
+  }
+  .aboutme-section {
+    width: 95%;
+  }
+}
+
 html {
   font-family: "Open sans", sans-serif;
 }
@@ -348,7 +487,7 @@ button {
   color: #d4d4d4 !important;
 }
 
-.hi-section {
+.h1-section {
   position: absolute;
   color: white;
   top: 25%;
