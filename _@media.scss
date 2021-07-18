@@ -1,8 +1,5 @@
 @media only screen and (max-width: 768px) {
 
-   // .my-link {
-   //    padding: 1rem auto;
-   // }
     .section-title {
         text-align: center;
         font-weight: 900;
@@ -19,13 +16,14 @@
 
     .social-link-ul {
         display: flex;
-        justify-content: space-between !important;
+        justify-content:space-between;
         position: relative;
     }
 
     .social-link {
         position: static;
         margin-top: 30rem;
+      //   justify-content: space-between;
       
     }
 
@@ -48,7 +46,7 @@
     }
 
     .porfolio-section {
-        width: 98%;
+        width: 100%;
     }
 
     .top-footer-part {
@@ -89,6 +87,20 @@
 
     .skills {
         margin-top: 3rem;
+    }
+    .message-me {
+       display: block;
+       justify-content: space-between;
+    }
+    .message-note {
+       text-align: center;
+    }
+    .fredImage {
+      display: block;
+      // margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      
     }
 }
 

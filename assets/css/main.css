@@ -76,7 +76,7 @@ hr {
 
 .porfolio-section {
   background: white;
-  margin: 5rem auto;
+  margin: 0 auto;
   width: 100%;
   position: relative;
   margin-bottom: 10rem;
@@ -350,9 +350,9 @@ hr {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify !important;
-        -ms-flex-pack: justify !important;
-            justify-content: space-between !important;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     position: relative;
   }
   .social-link {
@@ -382,7 +382,7 @@ hr {
     position: static;
   }
   .porfolio-section {
-    width: 98%;
+    width: 100%;
   }
   .top-footer-part {
     -webkit-box-orient: vertical;
@@ -422,6 +422,20 @@ hr {
   }
   .skills {
     margin-top: 3rem;
+  }
+  .message-me {
+    display: block;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .message-note {
+    text-align: center;
+  }
+  .fredImage {
+    display: block;
+    margin-right: auto;
+    width: 50%;
   }
 }
 
