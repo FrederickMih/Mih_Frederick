@@ -142,7 +142,7 @@ hr {
 }
 
 #fifth-project:hover {
-  background: none, url(assets/concertPage/concertOnMultiDevise.png) no-repeat center center;
+  background: none, url(assets/concertPage/concertScreenshot.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
@@ -162,7 +162,7 @@ hr {
 }
 
 #fifth-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/concertPage/concertOnMultiDevise.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/concertPage/concertScreenshot.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
