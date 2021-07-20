@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "sass --include-path scss main.scss main.css"
+    "scss": "node-sass — watch main.scss -o main.css"
   },
   "repository": {
     "type": "git",
