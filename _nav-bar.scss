@@ -1,6 +1,6 @@
 .top-navbar {
    background: #3e3c3cd5;
-   padding: 0 5rem;
+   padding: 0 4rem;
 }
 .collapse {
    justify-content: flex-end;
@@ -15,11 +15,13 @@ button {
 .top-navbar .nav-link, 
 .navbar-logo {
    color:#FFFFFF !important;
+   font-size: 1.3rem;
 }
 .nav-link:hover, .navbar-logo:hover {
-    color: gray !important;
+    color: #daff0a !important;
     transform: scale(1.2);
 }
+
 
 .navbar-logo
 .footer-ul {

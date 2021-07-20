@@ -1,6 +1,6 @@
 .top-navbar {
   background: #3e3c3cd5;
-  padding: 0 5rem;
+  padding: 0 4rem;
 }
 
 .collapse {
@@ -20,10 +20,11 @@ button {
 .top-navbar .nav-link,
 .navbar-logo {
   color: #FFFFFF !important;
+  font-size: 1.3rem;
 }
 
 .nav-link:hover, .navbar-logo:hover {
-  color: gray !important;
+  color: #daff0a !important;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
@@ -59,19 +60,18 @@ hr {
 }
 
 .readmore {
-  background-color: teal !important;
+  background-color: #e5f500 !important;
   text-decoration: none;
   color: black;
   padding: 0.7rem;
-  background-color: #889caa;
   top: 40%;
   left: 35%;
   border-radius: 5%;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 .readmore:hover {
-  color: white !important;
+  color: red !important;
 }
 
 .porfolio-section {
@@ -470,7 +470,7 @@ html {
 }
 
 body {
-  background-color: #1C1A19 !important;
+  background-color: black !important;
 }
 
 button {
@@ -497,7 +497,7 @@ button {
 }
 
 .social-color {
-  color: #A2A2A1FF;
+  color: #999;
 }
 
 .social-color:hover {
@@ -514,7 +514,7 @@ button {
 
 .primary-text {
   font-size: 52px;
-  color: #f55a00a6;
+  color: #e5f500;
 }
 
 .text-h4 {
