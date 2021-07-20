@@ -127,7 +127,7 @@ hr {
 }
 
 #first-project:hover {
-  background: none, url(assets/weather/weatherApp.png) no-repeat center center;
+  background: none, url(assets/weather/Weatherapp1.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
@@ -147,7 +147,7 @@ hr {
 }
 
 #first-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/weather/weatherApp.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/weather/Weatherapp1.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
