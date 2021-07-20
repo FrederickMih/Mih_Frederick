@@ -322,9 +322,15 @@ article {
   }
 
   .social-link-ul {
-    display: none;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
   }
 
   .social-link {
