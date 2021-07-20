@@ -147,22 +147,22 @@ hr {
 }
 
 #first-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/weather/Weatherapp1.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(243, 231, 231, 0.322) 0.85%, #141e30 84%), url(assets/weather/Weatherapp1.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
 #second-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/shooter/shootter3.png) no-repeat;
+  background: linear-gradient(179.35deg, rgba(243, 231, 231, 0.322) 0.85%, #141e30 84%), url(assets/shooter/shootter3.png) no-repeat;
   background-size: 100% 100%;
 }
 
 #fourth-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/webScraper/scraped_result.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(243, 231, 231, 0.322) 0.85%, #141e30 84%), url(assets/webScraper/scraped_result.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
 #fifth-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/concertPage/concertScreenshot.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(243, 231, 231, 0.322) 0.85%, #141e30 84%), url(assets/concertPage/concertScreenshot.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
@@ -200,6 +200,12 @@ hr {
 
 .proj-captions {
   position: absolute;
+  color: white;
+}
+
+article {
+  -webkit-box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.514);
+          box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.514);
 }
 
 .carus-img {
@@ -210,7 +216,7 @@ hr {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   color: #a5a9b1;
-  background-color: #125fdb;
+  background-color: #d98312;
 }
 
 .modal-content {
@@ -347,9 +353,7 @@ hr {
     padding: 1rem;
   }
   .social-link-ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -374,7 +378,7 @@ hr {
         -ms-flex-pack: end;
             justify-content: flex-end;
     padding: 2rem;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
   }
   .abstract-section {
     margin-top: 3rem;

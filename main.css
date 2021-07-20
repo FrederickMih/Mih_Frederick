@@ -1,12 +1,10 @@
 .top-navbar {
   background: #3e3c3cd5;
-  padding: 0 5rem;
+  padding: 0 4rem;
 }
 
 .collapse {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 button {
@@ -14,22 +12,21 @@ button {
 }
 
 .navbar-logo {
-  font-family: 'Open sans', sans-serif !important;
+  font-family: "Open sans", sans-serif !important;
 }
 
 .top-navbar .nav-link,
 .navbar-logo {
   color: #FFFFFF !important;
+  font-size: 1.3rem;
 }
 
 .nav-link:hover, .navbar-logo:hover {
-  color: gray !important;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  color: #daff0a !important;
+  transform: scale(1.2);
 }
 
-.navbar-logo
-.footer-ul {
+.navbar-logo .footer-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -52,26 +49,24 @@ a {
 hr {
   height: 5px !important;
   border-radius: 10px !important;
-  background: -webkit-gradient(linear, right top, left top, from(blue), to(red)) !important;
   background: linear-gradient(to left, blue, red) !important;
   width: 90% !important;
   margin: 0 auto !important;
 }
 
 .readmore {
-  background-color: teal !important;
+  background-color: #e5f500 !important;
   text-decoration: none;
   color: black;
   padding: 0.7rem;
-  background-color: #889caa;
   top: 40%;
   left: 35%;
   border-radius: 5%;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 .readmore:hover {
-  color: white !important;
+  color: red !important;
 }
 
 .porfolio-section {
@@ -79,7 +74,7 @@ hr {
   margin: 0 auto;
   width: 100%;
   position: relative;
-  margin-bottom: 10rem;
+  margin-bottom: 13rem;
 }
 
 .daily-outlay {
@@ -99,14 +94,9 @@ hr {
 }
 
 .secondary-projects-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .secondary-project {
@@ -147,22 +137,22 @@ hr {
 }
 
 #first-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/weather/Weatherapp1.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(243, 231, 231, 0.322) 0.85%, #141e30 84%), url(assets/weather/Weatherapp1.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
 #second-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/shooter/shootter3.png) no-repeat;
+  background: linear-gradient(179.35deg, rgba(243, 231, 231, 0.322) 0.85%, #141e30 84%), url(assets/shooter/shootter3.png) no-repeat;
   background-size: 100% 100%;
 }
 
 #fourth-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/webScraper/scraped_result.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(243, 231, 231, 0.322) 0.85%, #141e30 84%), url(assets/webScraper/scraped_result.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
 #fifth-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/concertPage/concertScreenshot.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(243, 231, 231, 0.322) 0.85%, #141e30 84%), url(assets/concertPage/concertScreenshot.png) no-repeat center center;
   background-size: 100% 100%;
 }
 
@@ -187,19 +177,19 @@ hr {
 }
 
 .links-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 20%;
 }
 
 .proj-captions {
   position: absolute;
+  color: white;
+}
+
+article {
+  box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.514);
 }
 
 .carus-img {
@@ -210,7 +200,7 @@ hr {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   color: #a5a9b1;
-  background-color: #125fdb;
+  background-color: #d98312;
 }
 
 .modal-content {
@@ -247,8 +237,6 @@ hr {
 }
 
 .message-me {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   position: relative;
@@ -287,24 +275,16 @@ hr {
 }
 
 .top-footer-part {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin-bottom: 3rem;
 }
 
 .talent-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
   color: white;
   margin: 3rem;
 }
@@ -317,12 +297,8 @@ hr {
 }
 
 .footer .social-link-ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 4rem;
 }
 
@@ -335,105 +311,98 @@ hr {
     text-align: center;
     font-weight: 900;
   }
+
   .first-div {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
+
   .top-navbar {
     padding: 1rem;
   }
+
   .social-link-ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
   }
+
   .social-link {
     position: static;
     margin-top: 30rem;
   }
+
   .home-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: static;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
     padding: 2rem;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
   }
+
   .abstract-section {
     margin-top: 3rem;
     position: static;
   }
+
   .h1-section {
     position: static;
   }
+
   .porfolio-section {
     width: 100%;
   }
+
   .top-footer-part {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
+
   .form-section {
     width: 95%;
     margin-top: 3rem;
     margin-left: 0;
     margin-bottom: 2rem;
   }
+
   .footer {
     height: auto;
     padding: 2rem;
   }
+
   .social-link-ul {
     padding-bottom: 3rem;
   }
+
   .abil-h3 {
     font-size: 36px;
     text-align: center;
   }
+
   .talent-section {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    flex-direction: column;
+    align-content: center;
     font-size: 24px;
     text-align: center;
   }
+
   .frameworks {
     margin-top: 3rem;
   }
+
   .skills {
     margin-top: 3rem;
   }
+
   .message-me {
     display: block;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
+
   .message-note {
     text-align: center;
   }
+
   .fredImage {
     display: block;
     margin-left: auto;
@@ -441,36 +410,39 @@ hr {
     width: 50%;
   }
 }
-
 @media only screen and (max-width: 1100px) {
   .form-section {
     margin-top: 2rem;
     width: 95%;
     margin-left: 0;
   }
+
   .footer {
     height: auto;
   }
+
   .social-link-ul {
     padding-bottom: 3rem;
   }
+
   .abstract-image {
     width: 30%;
   }
+
   .porfolio-section {
     width: 95%;
   }
+
   .aboutme-section {
     width: 95%;
   }
 }
-
 html {
   font-family: "Open sans", sans-serif;
 }
 
 body {
-  background-color: #1C1A19 !important;
+  background-color: black !important;
 }
 
 button {
@@ -478,7 +450,7 @@ button {
 }
 
 .home-section {
-  height: 30rem;
+  height: 40rem;
 }
 
 .social-link {
@@ -497,7 +469,7 @@ button {
 }
 
 .social-color {
-  color: #A2A2A1FF;
+  color: #999;
 }
 
 .social-color:hover {
@@ -514,7 +486,7 @@ button {
 
 .primary-text {
   font-size: 52px;
-  color: #f55a00a6;
+  color: #e5f500;
 }
 
 .text-h4 {
@@ -526,12 +498,8 @@ button {
   position: absolute;
   right: 5%;
   top: 29%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .abstract-image {
@@ -539,4 +507,5 @@ button {
   margin: 0;
   padding: 0;
 }
+
 /*# sourceMappingURL=main.css.map */

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass --include-path scss main.scss main.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/FrederickMih/Mih_Frederick/issues"
   },
-  "homepage": "https://github.com/FrederickMih/Mih_Frederick#readme"
+  "homepage": "https://github.com/FrederickMih/Mih_Frederick#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "sass": "^1.35.2"
+  }
 }
