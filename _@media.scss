@@ -18,9 +18,10 @@
     }
 
     .social-link-ul {
-        display: none;
+        display: flex;
         justify-content:space-between;
-        position: relative;
+        // position: relative;
+        align-items: center;
     }
 
     .social-link {
