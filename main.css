@@ -1,6 +1,7 @@
 .top-navbar {
   background: #3e3c3cd5;
   padding: 0 4rem;
+  align-items: flex-end;
 }
 
 .collapse {
@@ -322,7 +323,7 @@ article {
   }
 
   .social-link-ul {
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
   }

@@ -1,7 +1,9 @@
 .top-navbar {
    background: #3e3c3cd5;
    padding: 0 4rem;
+   align-items: flex-end;
 }
+
 .collapse {
    justify-content: flex-end;
 }
@@ -9,6 +11,7 @@
 button {
    border: none;
 }
+
 .navbar-logo {
    font-family: 'Open sans', sans-serif !important;
 }
@@ -22,9 +25,6 @@ button {
     transform: scale(1.2);
 }
 
-// .social-link-mobile {
-//    display: none;
-// }
 
 
 .navbar-logo
