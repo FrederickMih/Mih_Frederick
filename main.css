@@ -24,7 +24,7 @@ button {
 
 .nav-link:hover, .navbar-logo:hover {
   color: #daff0a !important;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .nav-link .far {
