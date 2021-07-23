@@ -1,6 +1,6 @@
 .top-navbar {
    background: #3e3c3cd5;
-   padding: 0 4rem;
+   padding: 0 8rem;
    align-items: flex-end;
 }
 
@@ -23,6 +23,10 @@ button {
 .nav-link:hover, .navbar-logo:hover {
     color: #daff0a !important;
     transform: scale(1.2);
+}
+
+.nav-link .far {
+   margin-top: 0.33rem;
 }
 
 
