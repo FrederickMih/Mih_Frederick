@@ -10,7 +10,7 @@
 
     .first-div {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
     }
 
     .top-navbar {
@@ -18,7 +18,7 @@
     }
 
     .social-link-ul {
-        display: none;
+        display: flex;
         justify-content:space-between;
         // position: relative;
         align-items: center;

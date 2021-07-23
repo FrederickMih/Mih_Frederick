@@ -315,7 +315,7 @@ article {
 
   .first-div {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
 
   .top-navbar {
@@ -323,7 +323,7 @@ article {
   }
 
   .social-link-ul {
-    display: none;
+    display: flex;
     justify-content: space-between;
     align-items: center;
   }
