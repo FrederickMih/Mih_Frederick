@@ -468,11 +468,12 @@ button {
 
 .home-section {
   height: 40rem;
+  position: relative;
 }
 
 .social-link {
   top: 25%;
-  position: absolute;
+  position: relative;
 }
 
 .social-link-ul {
